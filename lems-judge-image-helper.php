@@ -16,7 +16,7 @@ if ( ! defined( 'WP_CONTENT_FOLDER' ) )
 // plugin directory
 define('LEMS_JUDGE_DIR', WP_CONTENT_FOLDER . '/plugins/lems-judge-image-helper');
 
-define('JUDGEAPPS_BASEURL', 'http://apps.magicjudges.org');
+define('JUDGEAPPS_BASEURL', 'https://apps.magicjudges.org');
 
 add_action( 'init', 'lems_judge_image_helper_init' );
 
